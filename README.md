@@ -1,16 +1,19 @@
-MiniErlangBlockchain: an exercise in Erlang
+MiniBlockchain: an exercise in Erlang
 ===========================================
 
-Version V0.7
+Progetto per il corso di EMERGING PROGRAMMING PARADIGMS (Università di Bologna). Implementazione di una blockchain attraverso con Erlang.
+
 ============
 
-Per lanciare il vostro nodo:
+Per lanciare il nodo che funge bootstrapping:
 
-erl -name Docente    # lancia il nodo Erlang del docente
+erl -name Server    # lancia il nodo Erlang del docente
 teacher_node:main().
 
+Per lanciare un nodo della blockchain: 
+
 erl -name Nome       # per lanciare il vostro nodo Erlang
-net_adm:ping('Docente@xxx.yyy.zzz').
+net_adm:ping('Server@xxx.yyy.zzz').
 main:main().         # per lanciare il vostro nodo blockchain
 
 Per testarlo:
