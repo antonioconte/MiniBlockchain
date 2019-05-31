@@ -1,7 +1,7 @@
 MiniBlockchain: an exercise in Erlang
 ===========================================
 
-Progetto per il corso di EMERGING PROGRAMMING PARADIGMS (Università di Bologna). Implementazione di una blockchain attraverso con Erlang.
+Progetto per il corso di EMERGING PROGRAMMING PARADIGMS (Università di Bologna). Implementazione di una blockchain in Erlang.
 
 ============
 
