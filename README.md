@@ -7,17 +7,16 @@ Progetto per il corso di EMERGING PROGRAMMING PARADIGMS (Università di Bologna)
 
 Per lanciare il nodo che funge bootstrapping:
 
-
 `
-
-➜  ~ erl -name Server    # lancia il nodo Erlang del docente
+➜  ~ erl -name Server    
 teacher_node:main().
-
 `
+
 Per lanciare un nodo della blockchain: 
-`➜  ~ erl -name Nome       # per lanciare il vostro nodo Erlang
+
+`➜  ~ erl -name Nome      
 net_adm:ping('Server@xxx.yyy.zzz').
-main:main().         # per lanciare il vostro nodo blockchain
+main:main().      
 `
 Per testarlo:
 
